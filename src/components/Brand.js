@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import brands from '../asset/images/brands.svg';
 
 const Brand = () => {
   return (
-    <div>Brand</div>
+    <div className='center wrapper'>
+      <img src={brands} alt="images of different brands" />
+    </div>
   )
 }
 
