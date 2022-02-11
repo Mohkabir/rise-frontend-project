@@ -4,7 +4,7 @@ import Header from './Header';
 import Brand from './Brand';
 import SectionOne from './SectionOne';
 import AssetClasses from './AssetClasses';
-import SavaSection from './SavaSection';
+import SaveSection from './SaveSection';
 import RegulationSection from './RegulationSection';
 import Review from './Review';
 import JoinCommunity from './JoinCommunity';
@@ -19,7 +19,7 @@ const Main = () => {
       <Brand />
       <SectionOne />
       <AssetClasses />
-      <SavaSection />
+      <SaveSection />
       <RegulationSection />
       <Review />
       <JoinCommunity />

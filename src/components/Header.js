@@ -4,7 +4,7 @@ import phone from '../asset/images/phone.png';
 
 const Header = () => {
   return (
-    <header className='flex_between wrapper'>
+    <header className='flex_between wrapper header'>
       <div>
         <h1 className='primary'>Dollar investments that help you grow</h1>
         <p>We put your money in high quality assets that help you build wealth and achieve your financial goals.</p>

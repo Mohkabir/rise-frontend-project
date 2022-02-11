@@ -8,7 +8,7 @@ const JoinInvesting = () => {
       <div className='flex_between'>
         <div>
           <p className='primary'>Download The Rise App</p>
-          <h2>Join our 100,000 users investing and setting long term goals!</h2>
+          <h3>Join our 100,000 users investing and setting long term goals!</h3>
           <p>Dollar investments that help you grow.</p>
           <img src={googleApple} alt="googleApple icon" />
         </div>

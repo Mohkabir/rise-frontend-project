@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Card from './widget/Card';
 import asset1 from '../asset/images/asset1.png';
 import asset2 from '../asset/images/asset2.png';
@@ -29,10 +30,10 @@ const cardInfo = {
 
 const AssetClasses = () => {
   return (
-    <div className=' wrapper'>
+    <div className='wrapper assetClasses'>
       <div className='center'>
         <h2>Asset Classes</h2>
-        <p>It’s your money, choose where you invest it</p>
+        <p><strong>It’s your money, choose where you invest it</strong></p>
       </div>
       <div className='flex_between card_container'>
         <Card card={cardInfo.card1} />

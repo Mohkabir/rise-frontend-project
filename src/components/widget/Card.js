@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import arrowRight from '../../asset/images/arrow-right.svg';
 
 const Card = ({card}) => {
@@ -20,9 +22,9 @@ const Card = ({card}) => {
           <br />
           <span><span style={{color:'#919FB5'}}>Risk Level:</span> Medium</span>
         </p>
-        <a href="" className='primary'>Learn how Stocks work 
+        <Link to="/" className='primary button_link'>Learn how Stocks work 
         <img src={arrowRight} alt="arrowRight icon" />
-        </a>
+        </Link>
       </div>
     </div>
   )

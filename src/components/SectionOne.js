@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import arrowRight from '../asset/images/arrow-right.svg';
 import image1 from '../asset/images/image1.png';
 import image2 from '../asset/images/image2.png';
@@ -51,9 +53,9 @@ const SectionOne = () => {
                 <>
                   <h3>{invest.title}</h3>
                   <p>{invest.text}</p>
-                  <a className='primary' href=''>Start Investing Now {' '} 
+                  <Link className='primary button_link' to='/'> Start Investing Now {' '} 
                     <img src={arrowRight} alt="arrowRight icon" />
-                  </a>
+                  </Link>
                 </>
               )
             }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import logo from '../asset/images/logo-black.svg';
 import arrowSlightUp from '../asset/images/arrow-slight-up.svg';
 
@@ -9,33 +11,33 @@ const Footer = () => {
       <div className='flex'>
         <div>
           <img src={logo} alt="logo icon" />
-          <p><a href="">About Us</a></p>
-          <p><a href="">Careers</a></p>
-          <p><a href="">FAQs</a></p>
-          <p><a href="">Contact Info</a></p>
-          <p><a href="">Press</a></p>
-          <p><a href="">Rise Impact</a></p>
+          <p><Link to="/">About Us</Link></p>
+          <p><Link to="/">Careers</Link></p>
+          <p><Link to="/">FAQs</Link></p>
+          <p><Link to="/">Contact Info</Link></p>
+          <p><Link to="/">Press</Link></p>
+          <p><Link to="/">Rise Impact</Link></p>
         </div>
         <div>
           <h4>Explore</h4>
-          <p><a href="">Investmet Club <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
-          <p><a href="">Blog <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
+          <p><Link to="/">Investmet Club <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
+          <p><Link to="/">Blog <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
         </div>
       </div>
       <div className='flex'>
         <div>
           <h4>Products</h4>
-          <p><a href="">Rise App</a></p>
-          <p><a href="">Wallets</a></p>
-          <p><a href="">Asset Classes</a></p>
+          <p><Link to="/">Rise App</Link></p>
+          <p><Link to="/">Wallets</Link></p>
+          <p><Link to="/">Asset Classes</Link></p>
         </div>
         <address>
           <h4>Contact Us</h4>
-          <p><a href="">0818 714 7405 <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
-          <p><a href="">hello@rise.capital <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
-          <p><a href="">Newsletter <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
-          <p><a href="">Instagram <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
-          <p><a href="">Twitter <img src={arrowSlightUp} alt="arrow up icon" /></a></p>
+          <p><Link to="/">0818 714 7405 <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
+          <p><Link to="/">hello@rise.capital <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
+          <p><Link to="/">Newsletter <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
+          <p><Link to="/">Instagram <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
+          <p><Link to="/">Twitter <img src={arrowSlightUp} alt="arrow up icon" /></Link></p>
         </address>
       </div>
     </div>
