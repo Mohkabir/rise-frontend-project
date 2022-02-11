@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-
 import logo from '../asset/images/logo.svg';
 import menuBar from '../asset/images/menu.svg';
 
